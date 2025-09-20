@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/coding-pic.jpeg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Coding screen on a laptop";
 
 /**
  * Project list
@@ -30,31 +30,24 @@ const imageAltText = "desktop with books and laptop";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
 const projectList = [
-  {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+ {
+    title: "Blog Platform 📝",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Feature-rich full-stack blog app with login/signup, posts, editing, likes, comments, and user dashboards. Built with Flask, SQLAlchemy & CSS for smooth, responsive interactions.",
+    url: "https://k7611.pythonanywhere.com/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "LoadPilot – Dispatcher Dashboard 🚛",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Powerful dispatcher system with driver/load management, login/signup, status filters, and live dashboard analytics. Built with Flask & SQLite for real-time logistics tracking.",
+    url: "https://github.com/Kaur7611/loadpilot-dashboard",
   },
   {
-    title: "My Resume Site",
+    title: "Contact Book App 📇",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Secure, user-friendly contact manager with login/signup and full CRUD operations. Developed with Flask & SQLite with a clean, responsive interface.",
+    url: "https://github.com/Kaur7611/contact-book",
   },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
-];
 
 const Portfolio = () => {
   return (

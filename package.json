@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{Kaur7611}.github.io/{Portfolio-project}'",
+    "build-gh": "parcel build --public-url 'https://Kaur7611.github.io/Portfolio-project'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
