@@ -27195,7 +27195,7 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
@@ -27205,7 +27205,7 @@ var _aiGeneratedPicJpgDefault = parcelHelpers.interopDefault(_aiGeneratedPicJpg)
 const imageAltText = "tech related background";
 /**
  * Sort description that expands on your title on the Home component.
- */ const description = "I'm a self-taught Python and Flask web developer with a passion for building real-world applications. I enjoy turning ideas into functional, user-friendly websites.";
+ */ const description = "I'm a self-taught web developer with a passion for building real-world applications. I enjoy turning ideas into functional, user-friendly websites.";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
@@ -28913,7 +28913,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/coding-pic.jpg":"kTbO4"}],"kTbO4":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/coding-pic.jpg":"kTbO4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kTbO4":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "coding-pic.ad76a338.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
