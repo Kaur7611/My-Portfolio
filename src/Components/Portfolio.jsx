@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/coding-pic.jpeg";
+import image from "../images/coding-pic.jpg";
 
 const imageAltText = "Coding screen on a laptop";
 
@@ -30,7 +30,7 @@ const imageAltText = "Coding screen on a laptop";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
 const projectList = [
- {
+  {
     title: "Blog Platform 📝",
     description:
       "Feature-rich full-stack blog app with login/signup, posts, editing, likes, comments, and user dashboards. Built with Flask, SQLAlchemy & CSS for smooth, responsive interactions.",
@@ -48,6 +48,7 @@ const projectList = [
       "Secure, user-friendly contact manager with login/signup and full CRUD operations. Developed with Flask & SQLite with a clean, responsive interface.",
     url: "https://github.com/Kaur7611/contact-book",
   },
+];
 
 const Portfolio = () => {
   return (
